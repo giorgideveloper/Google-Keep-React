@@ -1,0 +1,24 @@
+.my_nav{
+    margin-bottom: 5em;
+}
+.my_fluid{
+    display: flex;
+    justify-content: flex-start !important;   
+}
+.navbar{
+    height:70px;
+}
+.search_my input{
+    height:100%;
+    border-radius:5px;
+    padding: 0.775rem 0.95rem;
+}
+.my_list button{
+    font-weight: bold;
+    font-size:14px;
+    color: rgb(116, 116, 116);
+}
+.my_list button:hover{
+    background-color: rgb(243, 233, 189);
+    color: rgb(59, 59, 59);
+}

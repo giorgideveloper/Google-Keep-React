@@ -3,10 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+/* import Myevents from './Events' */
+import MarvelService from './services/MarvelService';
+import KeepBody from './components/Keepbody/KeepBody'
+
+const marvelService = new MarvelService();
+let notes = [];
+marvelService.getAllCharacters().then(res => {
+  notes = res.data;
+  console.log(notes);
+  notes.forEach(note => console.log(note.title)); 
+});
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+  <KeepBody/>
   </React.StrictMode>,
   document.getElementById('root')
 );
