@@ -21,7 +21,7 @@ const KeepBody = () => {
                         </nav>
                     </div>
                 </Row>
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-lg-2">
                         <div className="list-group my_list">
                             <Button type="button" className="list-group-item list-group-item-action">Note</Button>
@@ -47,7 +47,7 @@ const KeepBody = () => {
                             </FloatingLabel>
                         </Col>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
